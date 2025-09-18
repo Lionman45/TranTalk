@@ -1,12 +1,12 @@
 // Your Firebase config (replace with your project’s values)
 const firebaseConfig = {
-    apiKey: "AIzaSyDpOCiiqEUBSEs_ELo7oyng6TI9-8i2KBM",
-    authDomain: "to-do-list-163b8.firebaseapp.com",
-    databaseURL: "https://to-do-list-163b8-default-rtdb.firebaseio.com",
-    projectId: "to-do-list-163b8",
-    storageBucket: "to-do-list-163b8.firebasestorage.app",
-    messagingSenderId: "506026591571",
-    appId: "1:506026591571:web:94ff9c8bd67c98e9e40da6"
+      apiKey: "AIzaSyABfeiNlgC4Y9vKV-B1P06XDOLhn15cDkk",
+      authDomain: "trantalk-2162e.firebaseapp.com",
+      databaseURL: "https://trantalk-2162e-default-rtdb.firebaseio.com",
+      projectId: "trantalk-2162e",
+      storageBucket: "trantalk-2162e.firebasestorage.app",
+      messagingSenderId: "852830516522",
+      appId: "1:852830516522:web:f5d51323b72db58cfb9a53"
 };
 
 // Init Firebase
