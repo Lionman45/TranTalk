@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TranTalk</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>TranTalk</h2>
+      <label for="username">Your Name:</label>
+      <input type="text" id="username" placeholder="Enter your name" />
+    </div>
+
+    <!-- Chat area -->
+    <div class="chat">
+      <div id="messages"></div>
+      <div class="input-area">
+        <input type="text" id="messageInput" placeholder="Type a message..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
